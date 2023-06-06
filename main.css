@@ -1,0 +1,62 @@
+:root{
+    --green: #00FF00;
+    --black: #000000;
+    --white: #FFFFFF;
+    
+}
+
+
+
+
+body{
+
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: monospace;
+}
+
+
+ul{
+    font-family: helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+.list{
+    list-style: square;
+}
+
+#msg{
+    font-family: monospace;
+}
+
+.black-theme{
+    --bg: var(--black);
+    --fontColor:var(--white);
+    --btncolor: var(--black);
+    --btnbg:var(--white);
+   
+}
+
+.white-theme{
+
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btncolor: var(--white);
+    --btnbg:var(--black);
+
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btncolor);
+    background-color: var(--btnbg);
+  }
